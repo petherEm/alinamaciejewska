@@ -51,33 +51,37 @@ export const HomeModal = ({ open, onCloseModal, img, title, date }) => {
             <br />
             <div className="details" style={{ marginBottom: "20px" }}>
               {date && <span>{date}</span>}
-              <h3>{title ? title : `VS Code Gets New JavaScript Debugger`}</h3>
+              <h3>{title ? title : ` `}</h3>
               <div></div>
             </div>
             <div className="hidden_content">
               <div className="popup_informations">
                 <div className="description">
                   <p>
-                    Kura is a leading web design agency with an award-winning
-                    design team that creates innovative, effective websites that
-                    capture your brand, improve your conversion rates, and
-                    maximize your revenue to help grow your business and achieve
-                    your goals.
-                  </p>
-                  <p>
-                    In today’s digital world, your website is the first
-                    interaction consumers have with your business. That's why
-                    almost 95 percent of a user’s first impression relates to
-                    web design. It’s also why web design services can have an
-                    immense impact on your company’s bottom line.
-                  </p>
-                  <p>
-                    That’s why more companies are not only reevaluating their
-                    website’s design but also partnering with Kura, the web
-                    design agency that’s driven more than $2.4 billion in
-                    revenue for its clients. With over 50 web design awards
-                    under our belt, we're confident we can design a custom
-                    website that drives sales for your unique business.
+                    Absolwentka Uniwersytetu Warszawskiego Wydziału Chemii -
+                    specjalność chemia analityczna. Stopień naukowy doktora w
+                    zakresie gleboznawstwa uzyskała w roku 1985; Stopień naukowy
+                    doktora habilitowanego uzyskała w 1994 roku w zakresie
+                    kształtowania i ochrony środowiska; Tytuł naukowy profesora
+                    w dziedzinie nauk rolniczych otrzymała w 2000 roku. W roku
+                    2016 Centralna Komisja do spraw Stopni i Tytułów na
+                    podstawie art.6 ust.5 Ustawy z dnia14 marca 2003r.o
+                    stopniach naukowych i tytule naukowym oraz o stopniach i
+                    tytule w zakresie sztuki (Dz.U.z 2016r. poz.882 z pózn.zm.)
+                    na posiedzeniu w dniu 28 listopada 2016r.,po zasięgnięciu
+                    opinii właściwej Sekcji Komisji na podstawie przedłożonego
+                    dorobku naukowego, dydaktycznego i organizacyjnego, uzyskała
+                    uprawnienia profesorskie do nadawania stopni naukowych i
+                    tytułów w dziedzinie nauk technicznych(Decyzja nr
+                    BCK-Org.-275/2016). Politechnice Warszawskiej jest
+                    zatrudniona od 1 listopada 1980 roku w Zakładzie
+                    Gleboznawstwa i Ochrony Gruntów Wydziału Geodezji i
+                    Kartografii na stanowiskach: naukowo-technicznych (1980
+                    r.-1987 r.), adiunkta (1987 r. – 2001 r.), profesora
+                    nadzwyczajnego (2001 r. – 2007 r.), a od 1 września 2007 roku
+                    do 21 stycznia 2019 roku na stanowisku profesora
+                    zwyczajnego. Aktualnie jest zatrudniona w Politechnice
+                    Warszawskiej na stanowisku profesora.
                   </p>
                 </div>
               </div>

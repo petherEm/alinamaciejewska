@@ -36,7 +36,9 @@ const Home = () => {
                       }
                     >
                       <img className="image" src="/img/service/1.jpg" alt="" />
-                      <span>Wieloletni Dziekan Wydziału Gospodarki Przestrzennej</span>
+                      <span>
+                        Wieloletni Dziekan Wydziału Gospodarki Przestrzennej
+                      </span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
@@ -48,7 +50,10 @@ const Home = () => {
                     <a
                       href="#"
                       onClick={() =>
-                        onOpenModal("/img/news/mama_GIK_2.jpg", "Profesor Zwyczajny")
+                        onOpenModal(
+                          "/img/news/mama_GIK_2.jpg",
+                          "Profesor Zwyczajny"
+                        )
                       }
                     >
                       <img className="image" src="/img/service/2.jpg" alt="" />
@@ -64,11 +69,17 @@ const Home = () => {
                     <a
                       href="#"
                       onClick={() =>
-                        onOpenModal("/img/news/mama_GIK_2.jpg", "Kierownik Zakładu xxx xxx")
+                        onOpenModal(
+                          "/img/news/mama_GIK_2.jpg",
+                          "Kierownik Zakładu Gospodarki Przestrzennej i Nauk o Środowisku Przyrodniczym"
+                        )
                       }
                     >
                       <img className="image" src="/img/service/3.jpg" alt="" />
-                      <span>Kierownik Zakładu (jakiego) </span>
+                      <span>
+                        Kierownik Zakładu Gospodarki Przestrzennej i Nauk o
+                        Środowisku Przyrodniczym{" "}
+                      </span>
                       <img
                         className="svg"
                         src="/img/svg/right-arrow.svg"
@@ -92,11 +103,10 @@ const Home = () => {
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>20</h3>
+                      <h3>200+</h3>
                       <span>
-                        Doktorantów
+                        Publikacji
                         <br />
-                        
                       </span>
                     </div>
                   </li>
